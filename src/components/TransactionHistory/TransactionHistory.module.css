@@ -1,0 +1,25 @@
+.transactionHistory {
+  width: 1000px;
+  margin: 100px auto;
+  border-collapse: collapse;
+  /* margin-top: 20px; */
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #e0e0e0; /* світло-сірий колір бордера */
+}
+
+.transactionHistory th {
+  background-color: #a0c4ff; /* світло-голубий фон заголовку */
+}
+
+.transactionHistory tbody tr:nth-child(2n) {
+  background-color: #f5f5f5; /* білий фон для парних рядків */
+}
+
+.transactionHistory tbody tr:nth-child(2n + 1) {
+  background-color: #ffffff; /* білий фон для непарних рядків */
+}
